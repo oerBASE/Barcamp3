@@ -8,7 +8,6 @@ redirect_from:
     - /
 ---
 
-# OER-Infrastruktur-Barcamp #3
 ## Education for the open  #oertopia
 
 **Datum:** 14.11.2024
