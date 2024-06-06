@@ -1,0 +1,15 @@
+---
+layout: base
+---
+<div id="oer-event-info" class="row g-5">
+  <div class="col-md-6" style="width: fit-content; padding-top: 1vh;">
+    <h2>Wann?</h2>
+    <p>{{ page.when }}</p>
+    <h2>Wo?</h2>
+    <p>{{ page.where | markdownify }}</p>
+  </div>
+</div>
+
+<div style="height: 4.5vh;"></div>
+
+{{ content }}
