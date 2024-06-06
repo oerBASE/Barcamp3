@@ -1,5 +1,4 @@
 ---
----
 layout: base
 title: "Barcamp #3"
 header: "drittes OER-Infrastruktur-Barcamp #oertopia"
