@@ -3,9 +3,6 @@ layout: base
 title: "Barcamp #3"
 header: "drittes OER-Infrastruktur-Barcamp #oertopia"
 subheader: '"normalise openness"'
-permalink: /barcamp-3/
-redirect_from: 
-    - /
 ---
 
 
