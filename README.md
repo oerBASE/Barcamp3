@@ -1,2 +1,2 @@
 # Barcamp3
-Info site for Barcamp 2024
+Info-Seite für das 3. OER Infrastruktur Barcamp am 14.11.2024
