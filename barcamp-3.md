@@ -16,6 +16,7 @@ Was, wenn offene Lehre - Produkte und Praxis - die Norm wäre und nicht die Ausn
 In diesem Barcamp möchten wir euch dazu einladen, radikal neu zu denken und bestehende Paradigmen in Frage zu stellen! Von Widersprüchen, Ambivalenzen oder Vorläufigkeiten lassen wir uns dabei nicht aufhalten. 
 
 ### Mögliche Inputs:  
+
 * Wie verändert die zunehmende Fähigkeit von KI, Inhalte zu generieren, unser Verständnis von Urheberschaft und Originalität?
 * Welche alternativen Modelle gibt es, um Wissen und Kreativität zu teilen und zu schützen?
 * Welche Widersprüche existieren innerhalb der Open-Bewegung und wie können wir diese konstruktiv angehen?
@@ -31,6 +32,7 @@ In diesem Barcamp möchten wir euch dazu einladen, radikal neu zu denken und bes
 * OER-Qualitätssicherung - technologisch und organisatorisch
 * Kooperation zwischen OER-Repositorien: Wie können OER-Repositorien weltweit besser zusammenarbeiten, um Ressourcen zu teilen und zu verbreiten?
 * KI als adminsitrative oder technische Unterstützung bei der Verwaltung oder Bereitstellung von OER
+* ...
 
 Diese Themen sind nur der Anfang. Wir ermutigen euch, im Sinne eines Barcamps als Teilgeber:innen eure eigenen Ideen und Fragen mitzubringen, um gemeinsam neue Wege zu erforschen. 
 
