@@ -8,8 +8,6 @@ redirect_from:
     - /
 ---
 
-## Education for the open  #oertopia
-
 **Datum:** 14.11.2024
 Ort, Programm etc: tba
 
