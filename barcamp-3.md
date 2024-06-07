@@ -15,7 +15,7 @@ Wir sind es gewohnt, Open Education von bestehenden Frameworks und (Infra-)Struk
 Was, wenn offene Lehre - Produkte und Praxis - die Norm wäre und nicht die Ausnahme? 
 In diesem Barcamp möchten wir euch dazu einladen, radikal neu zu denken und bestehende Paradigmen in Frage zu stellen! Von Widersprüchen, Ambivalenzen oder Vorläufigkeiten lassen wir uns dabei nicht aufhalten. 
 
-### Mögliche Inputs:  
+### Mögliche Diskussionthemen:  
 
 * Wie verändert die zunehmende Fähigkeit von KI, Inhalte zu generieren, unser Verständnis von Urheberschaft und Originalität?
 * Welche alternativen Modelle gibt es, um Wissen und Kreativität zu teilen und zu schützen?
