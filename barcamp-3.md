@@ -34,4 +34,4 @@ In diesem Barcamp möchten wir euch dazu einladen, radikal neu zu denken und bes
 * KI als adminsitrative oder technische Unterstützung bei der Verwaltung oder Bereitstellung von OER
 * ...
 
-Diese Themen sind nur der Anfang. Wir ermutigen euch, im Sinne eines Barcamps als Teilgeber:innen eure eigenen Ideen und Fragen mitzubringen, um gemeinsam neue Wege zu erforschen. 
+Diese Themen sind nur der Anfang. Wir ermutigen euch, im Sinne eines Barcamps als Teilgeber:innen eure eigenen Ideen und Fragen mitzubringen, um neue Sichtweisen zu generieren 
