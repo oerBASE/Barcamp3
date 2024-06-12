@@ -35,5 +35,3 @@ In diesem Barcamp möchten wir euch dazu einladen, radikal neu zu denken und bes
 * ...
 
 Diese Themen sind nur der Anfang. Wir ermutigen euch, im Sinne eines Barcamps als Teilgeber:innen eure eigenen Ideen und Fragen mitzubringen, um gemeinsam neue Wege zu erforschen. 
-
-&copy; 2024 OER-Infrastruktur-Barcamp. Alle Rechte vorbehalten.
