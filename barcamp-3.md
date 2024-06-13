@@ -14,6 +14,8 @@ Ort, Programm etc: tba
 Wir sind es gewohnt, Open Education von bestehenden Frameworks und (Infra-)Strukturen her zu denken - und Openness "aufzupfropfen". Warum nicht die Richtung umdrehen und Umgebungen und Praktiken grundlegend offen (er)denken? 
 Was, wenn offene Lehre - Produkte und Praxis - die Norm wäre und nicht die Ausnahme? 
 In diesem Barcamp möchten wir euch dazu einladen, radikal neu zu denken und bestehende Paradigmen in Frage zu stellen! Von Widersprüchen, Ambivalenzen oder Vorläufigkeiten lassen wir uns dabei nicht aufhalten. 
+<br><br>
+
 
 ### Mögliche Diskussionthemen:  
 
