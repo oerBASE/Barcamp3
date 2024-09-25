@@ -1,0 +1,9 @@
+/* Add margins to paragraphs - without this texts quickly become a long word salad */
+article p {
+  margin: 1rem 0;
+}
+
+/* Add padding-bottom for nicer cushion towards footer */
+article:last-child {
+  padding-bottom: 4rem;
+}
