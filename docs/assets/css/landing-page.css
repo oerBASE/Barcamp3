@@ -1,0 +1,78 @@
+/* selector for landing page, since other pages do not have <section> tags within md-container */
+.md-container:has(section) {
+  display: grid;
+  align-content: center;
+  grid-template-areas:
+    ' hero   hero   hero '
+    '  .   features   .  '
+    ' cat     cat    cat '
+    '  .  discussion  .  '
+    'footer footer footer';
+  grid-template-columns: auto 61rem auto;
+  grid-template-rows: 8fr 15fr 3fr 10fr;
+}
+
+/* hide main on landing page, which is empty white space */
+.md-container:has(section) main {
+  display: none;
+}
+
+section#hero {
+  grid-area: hero;
+}
+
+section#features {
+  grid-area: features;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+section#features div {
+  flex-basis: 50%;
+}
+
+section#call-to-register {
+  grid-area: cat;
+}
+
+section.discussion-points {
+  grid-area: discussion;
+  flex-direction: column;
+}
+
+
+footer {
+  grid-area: footer;
+}
+
+/* 
+  styling for making layout more visible & easier to read 
+  aka text alignment & borders
+*/
+section, section div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+}
+
+section#hero {
+  border: 5px solid lightgreen;
+}
+
+section#features {
+  border: 5px solid lightcoral;
+}
+
+section#call-to-register {
+  border: 5px solid lightskyblue;
+}
+
+section.discussion-points {
+  border: 5px solid lightgray;
+}
+
+section.discussion-points p {
+  font-size: 0.5rem;
+}

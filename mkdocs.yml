@@ -4,12 +4,14 @@ theme:
   name: material
   palette:
     primary: black
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.tabs.sticky
 
 extra_css:
   - assets/css/reset.css
+  - assets/css/landing-page.css
   - assets/css/tooltips.css
   - assets/css/tweaks.css
 

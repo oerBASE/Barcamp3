@@ -1,0 +1,45 @@
+{% extends "main.html" %}
+{% block tabs %}
+
+{{ super() }}
+
+<section id="hero">
+  hero
+</section>
+
+<section id="features">
+  <div>
+    Mountains Image
+  </div>
+  
+  <div>
+    Feature 1 Text
+  </div>
+  
+  <div>
+    Feature 2 Text
+  </div>
+  
+  <div>
+    Calendar
+  </div>
+</section>
+
+<section id="call-to-register">
+  call to action
+</section>
+
+<section class="discussion-points">
+  Diskussionsthemen
+  {% for _ in range(10) %}
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste sint animi rerum nobis quis? Ut quos, atque repellat sed labore sapiente eaque incidunt quam ullam? Fugit numquam nulla qui doloremque.
+    </p>
+  {% endfor %}
+</section>
+
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}
+{{ super() }}
+{% endblock %}
