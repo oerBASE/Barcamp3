@@ -1,3 +1,26 @@
+section#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: bold;
+  padding: max(4vmax, 4em) 9vmax;
+  border-bottom: 3px solid var(--md-default-fg-color);
+}
+
+section#hero div:first-child::before {
+  content: ">";
+  margin: 0 0.2em 0 -0.5em;
+}
+
+section#hero div:first-child {
+  font-size: var(--huge-font-size);
+}
+
+section#hero div:last-child {
+  font-size: var(--large-font-size);
+  margin-left: 0.8em;
+}
+
 section#call-to-register {
   font-size: var(--large-font-size);
   text-align: center;
