@@ -1,0 +1,15 @@
+section.discussion-points {
+  display: flex;
+  flex-direction: column;
+  padding: 4em 1em;
+  gap: 1em;
+}
+
+section.discussion-points h3 {
+  font-size: 40px;
+}
+
+section.discussion-points li, section.discussion-points p {
+  max-width: 42rem;
+  font-size: 20px;
+}
