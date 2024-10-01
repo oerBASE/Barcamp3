@@ -1,5 +1,5 @@
 section#call-to-register {
-  font-size: 40px;
+  font-size: var(--large-font-size);
   text-align: center;
   padding: 2em 1em;
   border-bottom: 3px solid var(--md-default-fg-color);
@@ -13,10 +13,10 @@ section.discussion-points {
 }
 
 section.discussion-points h3 {
-  font-size: 40px;
+  font-size: var(--large-font-size);
 }
 
 section.discussion-points li, section.discussion-points p {
   max-width: 42rem;
-  font-size: 20px;
+  font-size: var(--normal-font-size);
 }

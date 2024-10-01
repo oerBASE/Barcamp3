@@ -1,3 +1,9 @@
+:root {
+  --huge-font-size: 96px;
+  --large-font-size: 40px;
+  --normal-font-size: 20px;
+}
+
 /* selector for landing page, since other pages do not have <section> tags within md-container */
 .md-container:has(section) a {
   color: var(--md-typeset-a-color);
