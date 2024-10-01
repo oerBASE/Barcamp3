@@ -1,4 +1,4 @@
 /* selector for landing page, since other pages do not have <section> tags within md-container */
 .md-container:has(section) a {
-  color: #1A56DB;
+  color: var(--md-typeset-a-color);
 }

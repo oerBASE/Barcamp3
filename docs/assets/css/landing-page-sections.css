@@ -2,7 +2,7 @@ section#call-to-register {
   font-size: 40px;
   text-align: center;
   padding: 2em 1em;
-  border-bottom: 3px solid black; 
+  border-bottom: 3px solid var(--md-default-fg-color);
 }
 
 section.discussion-points {
