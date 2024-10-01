@@ -7,3 +7,13 @@ article p {
 article:last-child {
   padding-bottom: 4rem;
 }
+
+/* underline footer link to Open Education Austria */
+.md-copyright a { 
+  text-decoration: underline;
+}
+
+/* add more padding to footer */
+.md-footer-meta__inner {
+  padding: 0.5rem;
+}

@@ -2,3 +2,7 @@
 .md-container:has(section) a {
   color: var(--md-typeset-a-color);
 }
+
+.md-container:has(section) a:hover {
+  text-decoration: underline;
+}
