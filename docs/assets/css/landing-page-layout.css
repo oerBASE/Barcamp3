@@ -30,9 +30,13 @@
   }
 }
 
-/* hide main on landing page, which is empty white space */
-.md-container:has(section) main {
+/* hide md-content on landing page, which is just empty white space */
+.md-content {
   display: none;
+}
+/* set margins-top to 0 as this added whitespace below footer */
+.md-main__inner {
+  margin-top: 0;
 }
 
 section#hero {
