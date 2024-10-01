@@ -14,7 +14,6 @@
     'discussion'
     'footer';
   grid-template-columns: auto;
-  grid-template-rows: 8fr 15fr 3fr 10fr;
 }
 
 /* desktop view, min-width copied from mkdocs-material which makes the switch at 76.25em too */
@@ -28,7 +27,6 @@
       'footer footer footer';
     /* 61 rem taken from mkdocs-material .md-grid */
     grid-template-columns: auto 61rem auto;
-    grid-template-rows: 8fr 15fr 3fr 10fr;
   }
 }
 
@@ -93,8 +91,4 @@ section#hero {
 
 section#features {
   border: 5px solid lightcoral;
-}
-
-section#call-to-register {
-  border: 5px solid lightskyblue;
 }

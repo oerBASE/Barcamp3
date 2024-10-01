@@ -13,10 +13,11 @@ theme:
 
 extra_css:
   - assets/css/reset.css
+  - assets/css/global.css
+  - assets/css/tweaks.css
   - assets/css/landing-page-layout.css
   - assets/css/landing-page-sections.css
   - assets/css/tooltips.css
-  - assets/css/tweaks.css
 
 plugins:
   - privacy
