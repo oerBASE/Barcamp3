@@ -1,15 +1,35 @@
 /* selector for landing page, since other pages do not have <section> tags within md-container */
+/* general */
 .md-container:has(section) {
   display: grid;
   align-content: center;
-  grid-template-areas:
-    ' hero   hero   hero '
-    '  .   features   .  '
-    ' cat     cat    cat '
-    '  .  discussion  .  '
-    'footer footer footer';
-  grid-template-columns: auto 61rem auto;
+}
+
+/* mobile */
+.md-container:has(section) {
+  grid-template-areas: 
+    'hero'
+    'features'
+    'cat'
+    'discussion'
+    'footer';
+  grid-template-columns: auto;
   grid-template-rows: 8fr 15fr 3fr 10fr;
+}
+
+/* desktop view, min-width copied from mkdocs-material which makes the switch at 76.25em too */
+@media screen and (min-width: 76.25em) { 
+  .md-container:has(section) {
+    grid-template-areas:
+      ' hero   hero   hero '
+      '  .   features   .  '
+      ' cat     cat    cat '
+      '  .  discussion  .  '
+      'footer footer footer';
+    /* 61 rem taken from mkdocs-material .md-grid */
+    grid-template-columns: auto 61rem auto;
+    grid-template-rows: 8fr 15fr 3fr 10fr;
+  }
 }
 
 /* hide main on landing page, which is empty white space */
@@ -21,15 +41,27 @@ section#hero {
   grid-area: hero;
 }
 
+/* general */
 section#features {
   grid-area: features;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
 }
 
 section#features div {
   flex-basis: 50%;
+}
+
+/* on mobile - single column features */
+section#features {
+  flex-direction: column;
+}
+
+/* on tablets + desktop - two column features */
+@media screen and (min-width: 56.25em) {
+  section#features {
+    flex-wrap: wrap;
+    flex-direction: row;
+  } 
 }
 
 section#call-to-register {
@@ -38,9 +70,7 @@ section#call-to-register {
 
 section.discussion-points {
   grid-area: discussion;
-  flex-direction: column;
 }
-
 
 footer {
   grid-area: footer;
@@ -70,6 +100,7 @@ section#call-to-register {
 }
 
 section.discussion-points {
+  flex-direction: column;
   border: 5px solid lightgray;
 }
 
