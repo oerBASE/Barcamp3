@@ -11,7 +11,8 @@ theme:
 
 extra_css:
   - assets/css/reset.css
-  - assets/css/landing-page.css
+  - assets/css/landing-page-layout.css
+  - assets/css/landing-page-sections.css
   - assets/css/tooltips.css
   - assets/css/tweaks.css
 
