@@ -13,7 +13,6 @@
     'cat'
     'discussion'
     'footer';
-  grid-template-columns: auto;
 }
 
 /* desktop view, min-width copied from mkdocs-material which makes the switch at 76.25em too */
@@ -26,7 +25,7 @@
       '  .  discussion  .  '
       'footer footer footer';
     /* 61 rem taken from mkdocs-material .md-grid */
-    grid-template-columns: auto 61rem auto;
+    grid-template-columns: 1fr 61rem 1fr;
   }
 }
 
@@ -87,10 +86,6 @@ section, section div {
   justify-content: center;
   align-items: center;
   font-size: large;
-}
-
-section#hero {
-  border: 5px solid lightgreen;
 }
 
 section#features {
