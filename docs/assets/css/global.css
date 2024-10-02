@@ -1,7 +1,9 @@
 :root {
-  --huge-font-size: 96px;
-  --large-font-size: 40px;
-  --normal-font-size: 20px;
+  --huge-font-size: max(5.5vmax, 60px);
+  --large-font-size: max(2.4vmax, 30px);
+  --normal-font-size: max(1.2vmax, 18px);
+  --normal-hybrid-small-font-size: max(1.2vmax, 15px);
+  /* the more font sizes we have, the more the site looks chaotic. This is a compromise where the smarre size is actually the same as the normal size, but only on small screens it becomes a bit smaller */
 }
 
 /* selector for landing page, since other pages do not have <section> tags within md-container */
