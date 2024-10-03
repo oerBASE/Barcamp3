@@ -46,10 +46,10 @@ section#hero {
 section#features {
   grid-area: features;
   display: flex;
-}
-
-section#features div {
-  flex-basis: 50%;
+  gap: 4vmax; 
+  justify-content: space-around;
+  align-items: center;
+  margin: 5vmax 3vmax;
 }
 
 /* on mobile - single column features */
@@ -62,7 +62,23 @@ section#features {
   section#features {
     flex-wrap: wrap;
     flex-direction: row;
-  } 
+  }
+
+  section#features div:nth-child(1) {
+    flex-basis: 40%;
+  }
+
+  section#features div:nth-child(2) {
+    flex-basis: 45%;
+  }
+
+  section#features div:nth-child(3) {
+    flex-basis: 48%;
+  }
+
+  section#features div:nth-child(4) {
+    flex-basis: 30%;
+  }
 }
 
 section#call-to-register {
@@ -75,19 +91,4 @@ section.discussion-points {
 
 footer {
   grid-area: footer;
-}
-
-/* 
-  styling for making layout more visible & easier to read 
-  aka text alignment & borders
-*/
-section, section div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: large;
-}
-
-section#features {
-  border: 5px solid lightcoral;
 }
