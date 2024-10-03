@@ -18,6 +18,7 @@ extra_css:
   - assets/css/landing-page-layout.css
   - assets/css/landing-page-sections.css
   - assets/css/tooltips.css
+  - assets/css/calendar.css
 
 plugins:
   - privacy
