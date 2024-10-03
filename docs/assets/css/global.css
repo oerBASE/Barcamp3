@@ -10,7 +10,7 @@
 }
 
 /* selector for landing page, since other pages do not have <section> tags within md-container */
-.md-container:has(section) a {
+.md-container:has(section) a.blue-link {
   color: var(--md-typeset-a-color);
 }
 
