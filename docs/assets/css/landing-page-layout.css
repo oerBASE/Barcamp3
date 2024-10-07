@@ -85,7 +85,7 @@ section#call-to-register {
   grid-area: cat;
 }
 
-section.discussion-points {
+section#discussion-points {
   grid-area: discussion;
 }
 

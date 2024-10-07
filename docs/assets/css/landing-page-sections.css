@@ -88,7 +88,7 @@ section#call-to-register {
   border-bottom: 3px solid var(--md-default-fg-color);
 }
 
-section.discussion-points {
+section#discussion-points {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -96,11 +96,11 @@ section.discussion-points {
   gap: 1em;
 }
 
-section.discussion-points h3 {
+section#discussion-points h3 {
   font-size: var(--large-font-size);
 }
 
-section.discussion-points li, section.discussion-points p {
+section#discussion-points li, section#discussion-points p {
   max-width: 42rem;
   font-size: var(--normal-font-size);
 }
