@@ -1,0 +1,7 @@
+a.blue-link {
+  color: var(--md-typeset-a-color);  
+}
+
+a.blue-link:hover {
+  text-decoration: underline;
+}

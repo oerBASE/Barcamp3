@@ -1,3 +1,9 @@
+/* 
+  #######################################################
+    Styling for sections and components on Landing Page
+  #######################################################
+*/
+
 .md-nav__title, .md-ellipsis {
   text-transform: uppercase;
 }
@@ -5,24 +11,6 @@
 nav.md-header__inner {
   font-size: var(--normal-hybrid-small-font-size);
   padding: 0.5rem 0.2rem;
-}
-
-.primary-button {
-  margin-right: 1rem;
-
-  color: white;
-  padding: 0.5rem 0.75rem;
-  text-align: center;
-  background-color: var(--primary-color);
-  border-radius: 0.5rem;
-}
-.primary-button:hover {
-  background-color: var(--primary-color-darkened);
-}
-
-.primary-button:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
 }
 
 @media screen and (min-width: 76.25em) {

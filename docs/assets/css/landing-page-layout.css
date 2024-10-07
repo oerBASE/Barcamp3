@@ -1,5 +1,12 @@
+/* 
+  ############################
+    Layout for Landing Page
+  ############################
+*/
+
 /* selector for landing page, since other pages do not have <section> tags within md-container */
-/* general */
+
+/* all screens */
 .md-container:has(section) {
   display: grid;
   align-content: center;
@@ -29,20 +36,16 @@
   }
 }
 
-/* hide md-content on landing page, which is just empty white space */
-.md-content {
-  display: none;
-}
-/* set margins-top to 0 as this added whitespace below footer */
-.md-main__inner {
-  margin-top: 0;
-}
-
 section#hero {
   grid-area: hero;
 }
 
-/* general */
+/* 
+  features <section> layout CSS:
+  has more layout complexity than the other sections
+*/
+
+/* all screens */
 section#features {
   grid-area: features;
   display: flex;
@@ -91,4 +94,9 @@ section#discussion-points {
 
 footer {
   grid-area: footer;
+}
+
+/* set margins-top to 0 as this added whitespace below footer */
+.md-main__inner {
+  margin-top: 0;
 }

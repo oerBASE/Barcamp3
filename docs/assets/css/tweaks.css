@@ -13,12 +13,19 @@ article:last-child {
   text-decoration: underline;
 }
 
+/* hide md-content on landing page, which is just empty white space */
+.md-content {
+  display: none;
+}
+
 /* add more padding to footer */
 .md-footer-meta__inner {
   padding: 0.5rem;
 }
 
-/* display tweaks for customized header */
+/* 
+    display tweaks for customized header  
+*/
 
 /* wrap the menu, logo and name into a div, which needs a display flex too */
 nav div:first-child {
