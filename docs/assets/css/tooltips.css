@@ -62,7 +62,7 @@
 
 [tooltip]:hover:after,[tooltip]:hover:before {
   animation: tooltips-vert .3s ease-out forwards;
-  display: block
+  display: block;
 }
 
 @keyframes tooltips-vert {

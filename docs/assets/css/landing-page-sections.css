@@ -104,3 +104,8 @@ section#discussion-points li, section#discussion-points p {
   max-width: 42rem;
   font-size: var(--normal-font-size);
 }
+
+section#discussion-points img {
+  width: max(20vmax, 10rem);
+  margin-top: max(3vmax, 2em);
+}
