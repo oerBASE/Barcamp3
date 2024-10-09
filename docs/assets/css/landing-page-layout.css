@@ -17,7 +17,7 @@
   grid-template-areas: 
     'hero'
     'features'
-    'cat'
+    'cta'
     'discussion'
     'footer';
 }
@@ -28,7 +28,7 @@
     grid-template-areas:
       ' hero   hero   hero '
       '  .   features   .  '
-      ' cat     cat    cat '
+      ' cta     cta    cta '
       '  .  discussion  .  '
       'footer footer footer';
     /* 61 rem taken from mkdocs-material .md-grid */
@@ -85,7 +85,7 @@ section#features {
 }
 
 section#call-to-register {
-  grid-area: cat;
+  grid-area: cta;
 }
 
 section#discussion-points {
