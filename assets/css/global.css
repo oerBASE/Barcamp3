@@ -1,0 +1,10 @@
+:root {
+  --huge-font-size: max(5.5vmax, 60px);
+  --large-font-size: max(2.4vmax, 30px);
+  --normal-font-size: max(1.2vmax, 18px);
+  --normal-hybrid-small-font-size: max(1.2vmax, 15px);
+  /* the more font sizes we have, the more the site looks chaotic. This is a compromise where the small size is actually the same as the normal size, but only on small screens it becomes a bit smaller */
+
+  --primary-color: #D03801;
+  --primary-color-darkened: #B92100;
+}
