@@ -1,0 +1,13 @@
+:root {
+  /* 
+    this scales with screen sizes because mkdocs already provides different font-sizes (percentages, eg: font-size: 125%) for different screen sizes, so the rem element gets scaled up and down
+  */
+  --huge-font-size: 3rem;
+  --large-font-size: 1.5rem;
+  --normal-font-size: 0.9rem;
+  --normal-hybrid-small-font-size: min(0.9rem, 1.4vmax);
+  /* the more font sizes we have, the more the site looks chaotic. This is a compromise where the small size is actually the same as the normal size, but only on small screens it becomes a bit smaller */
+
+  --primary-color: #D03801;
+  --primary-color-darkened: #B92100;
+}
