@@ -1,0 +1,102 @@
+/* 
+  ############################
+    Layout for Landing Page
+  ############################
+*/
+
+/* selector for landing page, since other pages do not have <section> tags within md-container */
+
+/* all screens */
+.md-container:has(section) {
+  display: grid;
+  align-content: center;
+}
+
+/* mobile */
+.md-container:has(section) {
+  grid-template-areas: 
+    'hero'
+    'features'
+    'cta'
+    'discussion'
+    'footer';
+}
+
+/* desktop view, min-width copied from mkdocs-material which makes the switch at 76.25em too */
+@media screen and (min-width: 76.25em) { 
+  .md-container:has(section) {
+    grid-template-areas:
+      ' hero   hero   hero '
+      '  .   features   .  '
+      ' cta     cta    cta '
+      '  .  discussion  .  '
+      'footer footer footer';
+    /* 61 rem taken from mkdocs-material .md-grid */
+    grid-template-columns: 1fr 61rem 1fr;
+  }
+}
+
+section#hero {
+  grid-area: hero;
+}
+
+/* 
+  features <section> layout CSS:
+  has more layout complexity than the other sections
+*/
+
+/* all screens */
+section#features {
+  grid-area: features;
+  display: flex;
+  gap: 4vmax; 
+  justify-content: space-around;
+  align-items: center;
+  margin: 5vmax 3vmax;
+}
+
+/* on mobile - single column features */
+section#features {
+  flex-direction: column;
+}
+
+/* on tablets + desktop - two column features */
+@media screen and (min-width: 56.25em) {
+  section#features {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  section#features div:nth-child(1) {
+    flex-basis: 40%;
+  }
+
+  section#features div:nth-child(2) {
+    flex-basis: 45%;
+  }
+
+  section#features div:nth-child(3) {
+    flex-basis: 48%;
+  }
+
+  section#features div:nth-child(4) {
+    flex-basis: 30%;
+  }
+}
+
+section#call-to-register {
+  grid-area: cta;
+}
+
+section#discussion-points {
+  grid-area: discussion;
+}
+
+footer {
+  grid-area: footer;
+}
+
+/* set margins-top to 0 as this added whitespace below footer */
+.md-main__inner {
+  margin-top: 0;
+}

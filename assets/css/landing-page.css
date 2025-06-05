@@ -1,0 +1,99 @@
+/* 
+  #######################################################
+    Styling for sections and components on Landing Page
+  #######################################################
+*/
+
+.md-nav__title, .md-ellipsis {
+  text-transform: uppercase;
+}
+
+nav.md-header__inner {
+  font-size: var(--normal-hybrid-small-font-size);
+  padding: 0.5rem 0.2rem;
+}
+
+@media screen and (min-width: 76.25em) {
+  nav.md-tabs[aria-label="Tabs"] {
+    background: #333333;
+  }
+}
+
+section#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: bold;
+  padding: max(4vmax, 4em) 9vmax;
+  border-bottom: 3px solid var(--md-default-fg-color);
+}
+
+section#hero div:first-child::before {
+  content: ">";
+  margin: 0 0.2em 0 -0.5em;
+}
+
+section#hero div:first-child {
+  font-size: var(--huge-font-size);
+}
+
+section#hero div:last-child {
+  font-size: var(--large-font-size);
+  margin-left: 0.8em;
+}
+
+section#features div:first-child {
+  text-align: center;
+}
+
+section#features img {
+  border-bottom: 1px solid hsl(0, 0%, 65%);
+  border-radius: 0.375rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+section#features label {
+  display: inline-block;
+  font-size: var(--normal-font-size);
+  font-weight: bold;
+  margin-top: 1vmax;
+}
+
+section#features h3 {
+  font-size: var(--large-font-size);
+  margin: 2vmax 0;
+}
+
+section#features p {
+  font-size: var(--normal-font-size);
+  margin: 1.5vmax 0;
+}
+
+section#call-to-register {
+  font-size: var(--large-font-size);
+  text-align: center;
+  padding: 2em 1em;
+  border-bottom: 3px solid var(--md-default-fg-color);
+}
+
+section#discussion-points {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 6em 1em;
+  gap: 1em;
+}
+
+section#discussion-points h3 {
+  font-size: var(--large-font-size);
+}
+
+section#discussion-points li, section#discussion-points p {
+  max-width: 42rem;
+  font-size: var(--normal-font-size);
+}
+
+section#discussion-points img {
+  width: max(20vmax, 10rem);
+  margin-top: max(3vmax, 2em);
+}

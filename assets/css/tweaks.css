@@ -1,0 +1,44 @@
+/* Add margins to paragraphs - without this texts quickly become a long word salad */
+article p {
+  margin: 1rem 0;
+}
+
+/* Add padding-bottom for nicer cushion towards footer */
+article:last-child {
+  padding-bottom: 4rem;
+}
+
+/* underline footer link to Open Education Austria */
+.md-copyright a { 
+  text-decoration: underline;
+}
+
+/* hide md-content on landing page, which is just empty white space */
+.md-content {
+  display: none;
+}
+
+/* add more padding to footer */
+.md-footer-meta__inner {
+  padding: 0.5rem;
+}
+
+/* 
+    display tweaks for customized header  
+*/
+
+/* wrap the menu, logo and name into a div, which needs a display flex too */
+nav div:first-child {
+  display: flex;
+}
+
+/* now we can space the three lements nicely */
+.md-header__inner {
+  justify-content: space-between;
+}
+
+/* the header would be hidden due to our hacks, this brings it back to sight */
+/* .title is a custom class since it would otherwise mess up the docs pages */
+.md-header__topic.title {
+  position: relative;
+}

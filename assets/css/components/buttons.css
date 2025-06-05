@@ -1,0 +1,18 @@
+.primary-button {
+  margin-right: 1rem;
+
+  color: white;
+  padding: 0.5rem 0.75rem;
+  text-align: center;
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+}
+
+.primary-button:hover {
+  background-color: var(--primary-color-darkened);
+}
+
+.primary-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
